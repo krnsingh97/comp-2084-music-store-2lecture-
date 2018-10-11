@@ -26,9 +26,9 @@ namespace lesson2p1.Controllers
 
             return View();
         }
-        public ActionResult FAQ()
+        public ActionResult Gallery()
         {
-            return View();
+            return View("FAQ");
         }
     }
 }
